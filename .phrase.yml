@@ -1,0 +1,15 @@
+phrase:
+  access_token: 5f3372f3049f24d34e84d6aa58b27d79445adc5629ac1e76fff6c2ff14397f4f
+  project_id: 8582da601331b118aebf00c2fa9f8415
+  push:
+    sources:
+    - file: ./src/main/resources/messages/test-app_<locale_name>.properties
+      params:
+        file_format: properties
+        locale_id: en_US
+        update_translations: true
+  pull:
+    targets:
+    - file: ./src/main/resources/messages/test-app_<locale_name>.properties
+      params:
+        file_format: properties
