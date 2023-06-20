@@ -3,13 +3,13 @@ phrase:
   project_id: 8582da601331b118aebf00c2fa9f8415
   push:
     sources:
-    - file: ./src/main/resources/messages/test-app_en_.properties
+    - file: ./src/main/resources/messages/test-app_<locale_name>.properties
       params:
         file_format: properties
         locale_id: en_US
         update_translations: true
   pull:
     targets:
-    - file: ./src/main/resources/messages/test-app_en_.properties
+    - file: ./src/main/resources/messages/test-app_<locale_name>.properties
       params:
         file_format: properties
